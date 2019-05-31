@@ -7,8 +7,16 @@
         <servlet-name>PathDemo</servlet-name>
         <servlet-class>gz.itcast.a_path.gz.itcast.PathDemo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ResourceDemo</servlet-name>
+        <servlet-class>gz.itcast.b_resource.ResourceDemo</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PathDemo</servlet-name>
         <url-pattern>/PathDemo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ResourceDemo</servlet-name>
+        <url-pattern>/ResourceDemo</url-pattern>
     </servlet-mapping>
 </web-app>
