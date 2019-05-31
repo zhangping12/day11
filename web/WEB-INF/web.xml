@@ -19,6 +19,10 @@
         <servlet-name>DeleteCookie</servlet-name>
         <servlet-class>gz.itcast.c_cookie.DeleteCookie</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>HistServlet</servlet-name>
+        <servlet-class>gz.itcast.c_cookie.HistServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PathDemo</servlet-name>
         <url-pattern>/PathDemo</url-pattern>
@@ -34,5 +38,9 @@
     <servlet-mapping>
         <servlet-name>DeleteCookie</servlet-name>
         <url-pattern>/DeleteCookie</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistServlet</servlet-name>
+        <url-pattern>/HistServlet</url-pattern>
     </servlet-mapping>
 </web-app>
