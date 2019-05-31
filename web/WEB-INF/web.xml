@@ -11,6 +11,14 @@
         <servlet-name>ResourceDemo</servlet-name>
         <servlet-class>gz.itcast.b_resource.ResourceDemo</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>CookieDemo1</servlet-name>
+        <servlet-class>gz.itcast.c_cookie.CookieDemo1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteCookie</servlet-name>
+        <servlet-class>gz.itcast.c_cookie.DeleteCookie</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PathDemo</servlet-name>
         <url-pattern>/PathDemo</url-pattern>
@@ -18,5 +26,13 @@
     <servlet-mapping>
         <servlet-name>ResourceDemo</servlet-name>
         <url-pattern>/ResourceDemo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CookieDemo1</servlet-name>
+        <url-pattern>/CookieDemo1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteCookie</servlet-name>
+        <url-pattern>/DeleteCookie</url-pattern>
     </servlet-mapping>
 </web-app>
