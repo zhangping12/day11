@@ -23,6 +23,18 @@
         <servlet-name>HistServlet</servlet-name>
         <servlet-class>gz.itcast.c_cookie.HistServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>DeleteSession</servlet-name>
+        <servlet-class>gz.itcast.d_session.DeleteSession</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionDemo1</servlet-name>
+        <servlet-class>gz.itcast.d_session.SessionDemo1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>SessionDemo2</servlet-name>
+        <servlet-class>gz.itcast.d_session.SessionDemo2</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PathDemo</servlet-name>
         <url-pattern>/PathDemo</url-pattern>
@@ -42,5 +54,17 @@
     <servlet-mapping>
         <servlet-name>HistServlet</servlet-name>
         <url-pattern>/HistServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteSession</servlet-name>
+        <url-pattern>/DeleteSession</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionDemo1</servlet-name>
+        <url-pattern>/SessionDemo1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SessionDemo2</servlet-name>
+        <url-pattern>/SessionDemo2</url-pattern>
     </servlet-mapping>
 </web-app>
